@@ -4,7 +4,7 @@ const cakeSlise = createSlice({
   name: "cake",
   initialState: { numOfCakes: 10 },
   reducers: {
-    buyCake: (state, action) => {
+    buyCake: (state) => {
       // state.numOfCakes = state.numOfCakes - action.payload;
       state.numOfCakes = state.numOfCakes - 1;
       

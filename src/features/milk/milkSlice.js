@@ -8,7 +8,7 @@ const milkSlice = createSlice({
   name: "milk",
   initialState,
   reducers: {
-    buyMilk: (state, action) => {
+    buyMilk: (state) => {
       state.numOfMilks = state.numOfMilks - 1;
     },
   },
